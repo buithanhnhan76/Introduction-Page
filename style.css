@@ -1,23 +1,11 @@
-
-html, body{
-    width: 100%;
-    height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-}
-.nav-item .nav-link{
-    font-size: 18px;
-    padding: 4px;
-}
-
 /* Giới thiệu page */
 .main-header{
     background-image: url(http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/banner-1-1.jpg);
     background-position: 0% 50%;
     height: 40%;
     text-align: center;
-    padding-top: 5%;
-    margin-bottom: 2%;
+    padding: 5%;
+    margin: 0.1%;
 }
 .main-header-text{
     color: white;
@@ -26,9 +14,16 @@ html, body{
     color: white;
     text-decoration: none;
 }
-
-svg{
-    fill: rgb(194, 29, 37);
-    width: 80%;
+.main-main{
+    font-size: 130%;
+    margin: 2%;
 }
 
+.img-logo{
+    margin-bottom: 5%;
+}
+svg{
+    fill: rgb(194, 29, 37);
+    width: 50%;
+    margin-bottom: 5%;
+}
